@@ -1,0 +1,14 @@
+{
+  "name": "reviews",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-errors": "^1.9.0",
+    "apollo-server": "latest",
+    "apollo-server-express": "^2.9.7",
+    "express": "^4.17.1",
+    "graphql": "latest"
+  }
+}
