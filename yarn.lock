@@ -13,16 +13,16 @@
     lodash.xorby "^4.7.0"
 
 "@apollo/gateway@latest":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@apollo/gateway/-/gateway-0.10.7.tgz#35a4b11be9cb0f38a7eb87cab2f3e32f3cbad93c"
-  integrity sha512-Qg1dbzRhNqA5F85v4nzLj3BeIvhBtqOnpKCHQwKEB94qGaAUBzgQwGkoMHzVBzFmfKdVs7De55ZZHmbJusVQaQ==
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@apollo/gateway/-/gateway-0.10.8.tgz#60e0dbe0acd15ec631c1769cb94ba0d8192929d7"
+  integrity sha512-j+FR/ui9G+A2h6bqlhmf1AzJLft3DH96uj4CV3K/CvAXbhlQLXAK+snNhxwrS/YD7nBjOsMTzzzSa1bJOpayYg==
   dependencies:
     "@apollo/federation" "^0.10.2"
     apollo-engine-reporting-protobuf "^0.4.1"
     apollo-env "^0.5.1"
     apollo-graphql "^0.3.4"
     apollo-server-caching "^0.5.0"
-    apollo-server-core "^2.9.6"
+    apollo-server-core "^2.9.7"
     apollo-server-env "^2.4.3"
     apollo-server-types "^0.2.5"
     graphql-extensions "^0.10.4"
@@ -1284,10 +1284,10 @@ apollo-server-caching@^0.5.0:
   dependencies:
     lru-cache "^5.0.0"
 
-apollo-server-core@^2.9.6:
-  version "2.9.6"
-  resolved "https://registry.yarnpkg.com/apollo-server-core/-/apollo-server-core-2.9.6.tgz#b6dc087200633f47ca4f08244d3e606b4d616320"
-  integrity sha512-2tHAWQxP7HrETI/BZvg2fem6YlahF9HUp4Y6SSL95WP3uNMOJBlN12yM1y+O2u5K5e4jwdPNaLjoL2A/26XrLw==
+apollo-server-core@^2.9.6, apollo-server-core@^2.9.7:
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/apollo-server-core/-/apollo-server-core-2.9.7.tgz#0f32344af90dec445ac780be95350bfa736fc416"
+  integrity sha512-EqKyROy+21sM93YHjGpy6wlnzK/vH0fnZh7RCf3uB69aQ3OjgdP4AQ5oWRQ62NDN+aoic7OLhChSDJeDonq/NQ==
   dependencies:
     "@apollographql/apollo-tools" "^0.4.0"
     "@apollographql/graphql-playground-html" "1.6.24"
@@ -1298,7 +1298,7 @@ apollo-server-core@^2.9.6:
     apollo-engine-reporting "^1.4.7"
     apollo-server-caching "^0.5.0"
     apollo-server-env "^2.4.3"
-    apollo-server-errors "^2.3.3"
+    apollo-server-errors "^2.3.4"
     apollo-server-plugin-base "^0.6.5"
     apollo-server-types "^0.2.5"
     apollo-tracing "^0.8.5"
@@ -1319,10 +1319,10 @@ apollo-server-env@^2.4.3:
     node-fetch "^2.1.2"
     util.promisify "^1.0.0"
 
-apollo-server-errors@^2.3.3:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/apollo-server-errors/-/apollo-server-errors-2.3.3.tgz#83763b00352c10dc68fbb0d41744ade66de549ff"
-  integrity sha512-MO4oJ129vuCcbqwr5ZwgxqGGiLz3hCyowz0bstUF7MR+vNGe4oe3DWajC9lv4CxrhcqUHQOeOPViOdIo1IxE3g==
+apollo-server-errors@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/apollo-server-errors/-/apollo-server-errors-2.3.4.tgz#b70ef01322f616cbcd876f3e0168a1a86b82db34"
+  integrity sha512-Y0PKQvkrb2Kd18d1NPlHdSqmlr8TgqJ7JQcNIfhNDgdb45CnqZlxL1abuIRhr8tiw8OhVOcFxz2KyglBi8TKdA==
 
 apollo-server-express@^2.9.6:
   version "2.9.6"
